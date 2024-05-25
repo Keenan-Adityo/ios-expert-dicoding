@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE03B0721E5F27667B592E0 /* Pods_ios_expert_dicoding_ios_expert_dicodingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2797DA6DBC246024ECAF1C6 /* Pods_ios_expert_dicoding_ios_expert_dicodingUITests.framework */; };
+		32047819F26A4D23778816F3 /* Pods_ios_expert_dicodingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EDD36D4F55EEC238BC671C /* Pods_ios_expert_dicodingTests.framework */; };
+		A32105DB2C01DF2200CBE47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32105DA2C01DF2200CBE47C /* AppDelegate.swift */; };
+		A32105DD2C01DF2200CBE47C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32105DC2C01DF2200CBE47C /* SceneDelegate.swift */; };
+		A32105DF2C01DF2200CBE47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32105DE2C01DF2200CBE47C /* ViewController.swift */; };
+		A32105E52C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A32105E32C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodeld */; };
+		A32105E72C01DF2400CBE47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32105E62C01DF2400CBE47C /* Assets.xcassets */; };
+		A32105EA2C01DF2400CBE47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32105E82C01DF2400CBE47C /* LaunchScreen.storyboard */; };
+		A32105F52C01DF2500CBE47C /* ios_expert_dicodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32105F42C01DF2500CBE47C /* ios_expert_dicodingTests.swift */; };
+		A32105FF2C01DF2500CBE47C /* ios_expert_dicodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32105FE2C01DF2500CBE47C /* ios_expert_dicodingUITests.swift */; };
+		A32106012C01DF2500CBE47C /* ios_expert_dicodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32106002C01DF2500CBE47C /* ios_expert_dicodingUITestsLaunchTests.swift */; };
+		DF6DBFE5CF1A31500D5A4C40 /* Pods_ios_expert_dicoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36473C0C781D4563AFF34567 /* Pods_ios_expert_dicoding.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32105F12C01DF2500CBE47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32105CF2C01DF2200CBE47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32105D62C01DF2200CBE47C;
+			remoteInfo = "ios-expert-dicoding";
+		};
+		A32105FB2C01DF2500CBE47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32105CF2C01DF2200CBE47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32105D62C01DF2200CBE47C;
+			remoteInfo = "ios-expert-dicoding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1543266DA290DB7BB88C8512 /* Pods-ios-expert-dicoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-expert-dicoding.release.xcconfig"; path = "Target Support Files/Pods-ios-expert-dicoding/Pods-ios-expert-dicoding.release.xcconfig"; sourceTree = "<group>"; };
+		1AE50834F0BE4736C8BBCDD2 /* Pods-ios-expert-dicodingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-expert-dicodingTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-expert-dicodingTests/Pods-ios-expert-dicodingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36473C0C781D4563AFF34567 /* Pods_ios_expert_dicoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_expert_dicoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EDD36D4F55EEC238BC671C /* Pods_ios_expert_dicodingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_expert_dicodingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		635F1C8DE9C221E165F62835 /* Pods-ios-expert-dicoding-ios-expert-dicodingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-expert-dicoding-ios-expert-dicodingUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios-expert-dicoding-ios-expert-dicodingUITests/Pods-ios-expert-dicoding-ios-expert-dicodingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B5220C46BEF152A70AD4C31 /* Pods-ios-expert-dicoding-ios-expert-dicodingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-expert-dicoding-ios-expert-dicodingUITests.release.xcconfig"; path = "Target Support Files/Pods-ios-expert-dicoding-ios-expert-dicodingUITests/Pods-ios-expert-dicoding-ios-expert-dicodingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A32105D72C01DF2200CBE47C /* ios-expert-dicoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-expert-dicoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32105DA2C01DF2200CBE47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A32105DC2C01DF2200CBE47C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A32105DE2C01DF2200CBE47C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A32105E42C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_expert_dicoding.xcdatamodel; sourceTree = "<group>"; };
+		A32105E62C01DF2400CBE47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32105E92C01DF2400CBE47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A32105EB2C01DF2400CBE47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32105F02C01DF2500CBE47C /* ios-expert-dicodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-expert-dicodingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32105F42C01DF2500CBE47C /* ios_expert_dicodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_expert_dicodingTests.swift; sourceTree = "<group>"; };
+		A32105FA2C01DF2500CBE47C /* ios-expert-dicodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-expert-dicodingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32105FE2C01DF2500CBE47C /* ios_expert_dicodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_expert_dicodingUITests.swift; sourceTree = "<group>"; };
+		A32106002C01DF2500CBE47C /* ios_expert_dicodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_expert_dicodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2797DA6DBC246024ECAF1C6 /* Pods_ios_expert_dicoding_ios_expert_dicodingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_expert_dicoding_ios_expert_dicodingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C79BFA6AC5294A95461B8F /* Pods-ios-expert-dicodingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-expert-dicodingTests.release.xcconfig"; path = "Target Support Files/Pods-ios-expert-dicodingTests/Pods-ios-expert-dicodingTests.release.xcconfig"; sourceTree = "<group>"; };
+		D27BE719335B05420C74B8A2 /* Pods-ios-expert-dicoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-expert-dicoding.debug.xcconfig"; path = "Target Support Files/Pods-ios-expert-dicoding/Pods-ios-expert-dicoding.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32105D42C01DF2200CBE47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6DBFE5CF1A31500D5A4C40 /* Pods_ios_expert_dicoding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32105ED2C01DF2500CBE47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32047819F26A4D23778816F3 /* Pods_ios_expert_dicodingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32105F72C01DF2500CBE47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE03B0721E5F27667B592E0 /* Pods_ios_expert_dicoding_ios_expert_dicodingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695166F2405C627E919B7604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D27BE719335B05420C74B8A2 /* Pods-ios-expert-dicoding.debug.xcconfig */,
+				1543266DA290DB7BB88C8512 /* Pods-ios-expert-dicoding.release.xcconfig */,
+				635F1C8DE9C221E165F62835 /* Pods-ios-expert-dicoding-ios-expert-dicodingUITests.debug.xcconfig */,
+				9B5220C46BEF152A70AD4C31 /* Pods-ios-expert-dicoding-ios-expert-dicodingUITests.release.xcconfig */,
+				1AE50834F0BE4736C8BBCDD2 /* Pods-ios-expert-dicodingTests.debug.xcconfig */,
+				C3C79BFA6AC5294A95461B8F /* Pods-ios-expert-dicodingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A17BD8A7FE50EFA54570F688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36473C0C781D4563AFF34567 /* Pods_ios_expert_dicoding.framework */,
+				C2797DA6DBC246024ECAF1C6 /* Pods_ios_expert_dicoding_ios_expert_dicodingUITests.framework */,
+				41EDD36D4F55EEC238BC671C /* Pods_ios_expert_dicodingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A32105CE2C01DF2200CBE47C = {
+			isa = PBXGroup;
+			children = (
+				A32105D92C01DF2200CBE47C /* ios-expert-dicoding */,
+				A32105F32C01DF2500CBE47C /* ios-expert-dicodingTests */,
+				A32105FD2C01DF2500CBE47C /* ios-expert-dicodingUITests */,
+				A32105D82C01DF2200CBE47C /* Products */,
+				695166F2405C627E919B7604 /* Pods */,
+				A17BD8A7FE50EFA54570F688 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A32105D82C01DF2200CBE47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32105D72C01DF2200CBE47C /* ios-expert-dicoding.app */,
+				A32105F02C01DF2500CBE47C /* ios-expert-dicodingTests.xctest */,
+				A32105FA2C01DF2500CBE47C /* ios-expert-dicodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32105D92C01DF2200CBE47C /* ios-expert-dicoding */ = {
+			isa = PBXGroup;
+			children = (
+				A32105DA2C01DF2200CBE47C /* AppDelegate.swift */,
+				A32105DC2C01DF2200CBE47C /* SceneDelegate.swift */,
+				A32105DE2C01DF2200CBE47C /* ViewController.swift */,
+				A32105E62C01DF2400CBE47C /* Assets.xcassets */,
+				A32105E82C01DF2400CBE47C /* LaunchScreen.storyboard */,
+				A32105EB2C01DF2400CBE47C /* Info.plist */,
+				A32105E32C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodeld */,
+			);
+			path = "ios-expert-dicoding";
+			sourceTree = "<group>";
+		};
+		A32105F32C01DF2500CBE47C /* ios-expert-dicodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32105F42C01DF2500CBE47C /* ios_expert_dicodingTests.swift */,
+			);
+			path = "ios-expert-dicodingTests";
+			sourceTree = "<group>";
+		};
+		A32105FD2C01DF2500CBE47C /* ios-expert-dicodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A32105FE2C01DF2500CBE47C /* ios_expert_dicodingUITests.swift */,
+				A32106002C01DF2500CBE47C /* ios_expert_dicodingUITestsLaunchTests.swift */,
+			);
+			path = "ios-expert-dicodingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32105D62C01DF2200CBE47C /* ios-expert-dicoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32106042C01DF2500CBE47C /* Build configuration list for PBXNativeTarget "ios-expert-dicoding" */;
+			buildPhases = (
+				BD83AB76294431D1CDA0CD46 /* [CP] Check Pods Manifest.lock */,
+				A32105D32C01DF2200CBE47C /* Sources */,
+				A32105D42C01DF2200CBE47C /* Frameworks */,
+				A32105D52C01DF2200CBE47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-expert-dicoding";
+			productName = "ios-expert-dicoding";
+			productReference = A32105D72C01DF2200CBE47C /* ios-expert-dicoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32105EF2C01DF2500CBE47C /* ios-expert-dicodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32106072C01DF2500CBE47C /* Build configuration list for PBXNativeTarget "ios-expert-dicodingTests" */;
+			buildPhases = (
+				8105F84C49B65F609B7EBB05 /* [CP] Check Pods Manifest.lock */,
+				A32105EC2C01DF2500CBE47C /* Sources */,
+				A32105ED2C01DF2500CBE47C /* Frameworks */,
+				A32105EE2C01DF2500CBE47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32105F22C01DF2500CBE47C /* PBXTargetDependency */,
+			);
+			name = "ios-expert-dicodingTests";
+			productName = "ios-expert-dicodingTests";
+			productReference = A32105F02C01DF2500CBE47C /* ios-expert-dicodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32105F92C01DF2500CBE47C /* ios-expert-dicodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A321060A2C01DF2500CBE47C /* Build configuration list for PBXNativeTarget "ios-expert-dicodingUITests" */;
+			buildPhases = (
+				CFE2A338E712300835DAB79C /* [CP] Check Pods Manifest.lock */,
+				A32105F62C01DF2500CBE47C /* Sources */,
+				A32105F72C01DF2500CBE47C /* Frameworks */,
+				A32105F82C01DF2500CBE47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32105FC2C01DF2500CBE47C /* PBXTargetDependency */,
+			);
+			name = "ios-expert-dicodingUITests";
+			productName = "ios-expert-dicodingUITests";
+			productReference = A32105FA2C01DF2500CBE47C /* ios-expert-dicodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32105CF2C01DF2200CBE47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A32105D62C01DF2200CBE47C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A32105EF2C01DF2500CBE47C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A32105D62C01DF2200CBE47C;
+					};
+					A32105F92C01DF2500CBE47C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A32105D62C01DF2200CBE47C;
+					};
+				};
+			};
+			buildConfigurationList = A32105D22C01DF2200CBE47C /* Build configuration list for PBXProject "ios-expert-dicoding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32105CE2C01DF2200CBE47C;
+			productRefGroup = A32105D82C01DF2200CBE47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32105D62C01DF2200CBE47C /* ios-expert-dicoding */,
+				A32105EF2C01DF2500CBE47C /* ios-expert-dicodingTests */,
+				A32105F92C01DF2500CBE47C /* ios-expert-dicodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32105D52C01DF2200CBE47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32105EA2C01DF2400CBE47C /* LaunchScreen.storyboard in Resources */,
+				A32105E72C01DF2400CBE47C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32105EE2C01DF2500CBE47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32105F82C01DF2500CBE47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8105F84C49B65F609B7EBB05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-expert-dicodingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD83AB76294431D1CDA0CD46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-expert-dicoding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE2A338E712300835DAB79C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-expert-dicoding-ios-expert-dicodingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32105D32C01DF2200CBE47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32105E52C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodeld in Sources */,
+				A32105DF2C01DF2200CBE47C /* ViewController.swift in Sources */,
+				A32105DB2C01DF2200CBE47C /* AppDelegate.swift in Sources */,
+				A32105DD2C01DF2200CBE47C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32105EC2C01DF2500CBE47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32105F52C01DF2500CBE47C /* ios_expert_dicodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32105F62C01DF2500CBE47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32105FF2C01DF2500CBE47C /* ios_expert_dicodingUITests.swift in Sources */,
+				A32106012C01DF2500CBE47C /* ios_expert_dicodingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32105F22C01DF2500CBE47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32105D62C01DF2200CBE47C /* ios-expert-dicoding */;
+			targetProxy = A32105F12C01DF2500CBE47C /* PBXContainerItemProxy */;
+		};
+		A32105FC2C01DF2500CBE47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32105D62C01DF2200CBE47C /* ios-expert-dicoding */;
+			targetProxy = A32105FB2C01DF2500CBE47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A32105E82C01DF2400CBE47C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32105E92C01DF2400CBE47C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A32106022C01DF2500CBE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32106032C01DF2500CBE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32106052C01DF2500CBE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27BE719335B05420C74B8A2 /* Pods-ios-expert-dicoding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-expert-dicoding/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "keenan.ios-expert-dicoding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32106062C01DF2500CBE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1543266DA290DB7BB88C8512 /* Pods-ios-expert-dicoding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-expert-dicoding/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "keenan.ios-expert-dicoding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A32106082C01DF2500CBE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE50834F0BE4736C8BBCDD2 /* Pods-ios-expert-dicodingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "keenan.ios-expert-dicodingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-expert-dicoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-expert-dicoding";
+			};
+			name = Debug;
+		};
+		A32106092C01DF2500CBE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C79BFA6AC5294A95461B8F /* Pods-ios-expert-dicodingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "keenan.ios-expert-dicodingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-expert-dicoding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-expert-dicoding";
+			};
+			name = Release;
+		};
+		A321060B2C01DF2500CBE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635F1C8DE9C221E165F62835 /* Pods-ios-expert-dicoding-ios-expert-dicodingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "keenan.ios-expert-dicodingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-expert-dicoding";
+			};
+			name = Debug;
+		};
+		A321060C2C01DF2500CBE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5220C46BEF152A70AD4C31 /* Pods-ios-expert-dicoding-ios-expert-dicodingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "keenan.ios-expert-dicodingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-expert-dicoding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32105D22C01DF2200CBE47C /* Build configuration list for PBXProject "ios-expert-dicoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32106022C01DF2500CBE47C /* Debug */,
+				A32106032C01DF2500CBE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32106042C01DF2500CBE47C /* Build configuration list for PBXNativeTarget "ios-expert-dicoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32106052C01DF2500CBE47C /* Debug */,
+				A32106062C01DF2500CBE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32106072C01DF2500CBE47C /* Build configuration list for PBXNativeTarget "ios-expert-dicodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32106082C01DF2500CBE47C /* Debug */,
+				A32106092C01DF2500CBE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A321060A2C01DF2500CBE47C /* Build configuration list for PBXNativeTarget "ios-expert-dicodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A321060B2C01DF2500CBE47C /* Debug */,
+				A321060C2C01DF2500CBE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A32105E32C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A32105E42C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodel */,
+			);
+			currentVersion = A32105E42C01DF2200CBE47C /* ios_expert_dicoding.xcdatamodel */;
+			path = ios_expert_dicoding.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A32105CF2C01DF2200CBE47C /* Project object */;
+}
